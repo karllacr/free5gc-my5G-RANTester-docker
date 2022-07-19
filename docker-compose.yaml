@@ -22,4 +22,4 @@ services:
 networks:
    default:
         external:
-            name: "free5gc-compose_privnet"
+            name: "free5gccompose_privnet"
