@@ -7,7 +7,7 @@ RUN git clone https://github.com/my5G/my5G-RANTester.git \
     && go mod download 
     
 RUN apt-get update \
-    && apt-get install iperf3
+    && apt-get install iperf3 -y
     
 # Move to the binary path
 WORKDIR /workspace/my5G-RANTester/cmd
